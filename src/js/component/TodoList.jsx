@@ -4,6 +4,7 @@ export const TodoList = () => {
     const [inputText, setinputText] = useState('')
     const [todos, setTodos] = useState([])
     console.log(todos.length)
+    
     const handleOnChange = (event) => {
         setinputText(event.target.value)
     }
