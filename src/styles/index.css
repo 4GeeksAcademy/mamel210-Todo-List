@@ -1,12 +1,32 @@
+*{
+    font-size: 25px;
+}
 
-/* 
-
-    You can write your own styles here...
+.todoItem {
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    color: #212529;
+    background-color: #fff;
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: 0 0 0 .25rem rgba(13, 110, 253, .25);
+}
+.todoItem:hover {
+    .closeIcon {
+        color: red;
+        opacity: 1;
+    }
+}
+.closeIcon {
+    opacity: 0;
     
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+}
+body {
+    background: black;
+}
+.home {
+    min-height: 700px;
+    border-radius: 1rem;
+}
